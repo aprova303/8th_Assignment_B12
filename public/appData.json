@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://commons.wikimedia.org/wiki/File:Spotify_icon.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs, podcasts, and playlists. Discover new music every day.",
+    "size": 95,
+    "reviews": 32700000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 7200000 },
+      { "name": "5 star", "count": 20700000 }
+    ]
+  },
+  {
+    "image": "https://commons.wikimedia.org/wiki/File:Duolingo_logo_(2019).svg",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 2,
+    "description": "Learn languages for free with fun bite-sized lessons. Available in over 30 languages.",
+    "size": 60,
+    "reviews": 18000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 12300000 }
+    ]
+  },
+  {
+    "image": "https://en.wikipedia.org/wiki/File:Canva_Logo.svg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 3,
+    "description": "Create graphics, social posts and presentations easily using templates and drag-and-drop tools.",
+    "size": 75,
+    "reviews": 13500000,
+    "ratingAvg": 4.8,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 9700000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?hl=en_US&id=com.niksoftware.snapseed",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Professional photo editor with a wide set of tools and filters for precise editing.",
+    "size": 28,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1040000 }
+    ]
+  },
+  {
+    "image": "https://commons.wikimedia.org/wiki/File:Notion_app_logo.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 5,
+    "description": "All-in-one workspace for notes, tasks, and databases — powerful productivity app.",
+    "size": 100,
+    "reviews": 900000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 485000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?hl=en_US&id=com.pinterest",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 6,
+    "description": "Find ideas for recipes, home design, fashion, and more — inspiration for every interest.",
+    "size": 75,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 6800000 }
+    ]
+  },
+  {
+    "image": "https://www.calm.com/app",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 7,
+    "description": "Meditation, sleep, and relaxation app designed to reduce stress and improve focus.",
+    "size": 40,
+    "reviews": 2500000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 110000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1420000 }
+    ]
+  },
+  {
+    "image": "https://www.shazam.com/apps",
+    "title": "Shazam",
+    "companyName": "Shazam Entertainment (Apple Inc.)",
+    "id": 8,
+    "description": "Identify songs playing around you instantly. Discover new music and artists easily.",
+    "size": 35,
+    "reviews": 9200000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 7020000 }
+    ]
+  }
+]

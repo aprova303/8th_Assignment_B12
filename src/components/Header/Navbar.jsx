@@ -6,8 +6,8 @@ import { FaGithub } from 'react-icons/fa';
 const Navbar = () => {
      const links=<>
      <Link to='/'> <li className='m-2'>Home</li></Link>
-   <Link to='/about'><li className='m-2'>Apps</li></Link>
-   <Link to='/about'><li className='m-2'>Installation</li></Link>
+   <Link to='/AppPage'><li className='m-2'>Apps</li></Link>
+   <Link to='/Installation'><li className='m-2'>Installation</li></Link>
     </>
     return (
        <div className="navbar bg-base-100 shadow-sm">
