@@ -1,10 +1,27 @@
 import React from 'react';
+import { FaRegStar, FaStarHalf } from 'react-icons/fa';
+import { FiDownload } from 'react-icons/fi';
 import { Link } from 'react-router';
 const App = ({singleApp}) => {
-    const {title,appImage,id} = singleApp;
-    console.log(singleApp.image)
+    const {title,image,id,ratingAvg,downloads} = singleApp;
+    console.log(image)
     return (
-    <div></div>
+   <Link to={`/AppDetails/${id}`}>
+    <div className="card bg-base-100 w-72 shadow-sm border p-6 mb-6">
+  <figure className='p-4 bg-gray-100 w-2/3 mx-auto '>
+    <img className='h-[166px]'
+      src={image} />
+  </figure>
+  <div className="card-body"> 
+    <h2 className="card-title"></h2>
+     {title}
+    <div className="card-actions justify-end">
+      <div className="badge badge-outline"><FiDownload></FiDownload>{downloads}</div>
+      <div className="badge badge-outline"><FaRegStar></FaRegStar>{ratingAvg}</div>
+    </div>
+  </div>
+</div>
+   </Link>
     );
 };
 
