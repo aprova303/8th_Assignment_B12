@@ -1,9 +1,11 @@
-import React from 'react';
-
+import App from '../App/App';
+import AppPageItem from '../AppPageItem/AppPageItem';
+import { useLoaderData } from 'react-router';
 const AppPage = () => {
+     const data = useLoaderData()
     return (
         <div>
-            <h1>hi i am app page</h1>
+            <AppPageItem data={data}></AppPageItem>
         </div>
     );
 };

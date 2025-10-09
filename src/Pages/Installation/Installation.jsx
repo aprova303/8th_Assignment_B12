@@ -4,14 +4,16 @@ import Select from 'react-select';
 import { getStoredApp } from '../../utility/addToDB';
 import App from '../App/App';
 import AppList from '../AppList/AppList';
+import { FaCaretDown } from 'react-icons/fa';
 
 const options = [
-  { value: 'one', label: 'Low-High' },
+  { value: 'Low-High', label: 'Low-High' },
   { value: 'High-Low', label: 'High-Low' },
 ];
 
 const Installation = () => {
 const [installation,setInstallation] = useState([])
+const [sort,setSort] = useState("");
     const data =useLoaderData();
     console.log(data)
 
@@ -20,11 +22,26 @@ const [installation,setInstallation] = useState([])
         const convertedAppData = storedAppData.map(id => parseInt(id))
        const installedApp = data.filter(app => convertedAppData.includes(app.id))
        setInstallation(installedApp)
-    })
+    },[])
   const handleChange = (selectedOption) => {
     console.log('Selected:', selectedOption);
   };
 
+  const handleSort = (type) => {
+    setSort(type)
+
+    if(type === "ascending"){
+   const sortedAscending = [...installation].sort((a,b)=>a.downloads - b.downloads)
+   setInstallation(sortedAscending)
+  }
+  if(type === "descending"){
+    const sortedDescending = [...installation].sort((a,b)=>b.downloads - a.downloads)
+   setInstallation(sortedDescending)
+  }
+
+  }
+
+  
   return (
     <div>
       <div className='text-center m-10'>
@@ -34,12 +51,19 @@ const [installation,setInstallation] = useState([])
 
     <div className='flex justify-between'>
         <h1>{installation.length} Apps Found</h1>
-          <Select
+          {/* <Select
         options={options}
         defaultValue={options[0]}
         onChange={handleChange}
         placeholder="Sort By Size"
-      />
+      /> */}
+      <details className="dropdown">
+  <summary className="btn m-1">Sort By Size  <FaCaretDown></FaCaretDown></summary>
+  <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li onClick={()=>handleSort("ascending")}><a>Low-High</a></li>
+    <li onClick={()=>handleSort("descending")}><a>High-Low</a></li>
+  </ul>
+</details>
     </div>
     {
         installation.map(a => <AppList key={a.id} singleApp={a}></AppList>)

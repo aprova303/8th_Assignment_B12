@@ -13,7 +13,7 @@ const AppList = ({singleApp}) => {
         <div className='flex justify-around'>
             <img className='w-20 h-20 rounded-2xl mr-5' src={image} alt="" />
            <div>
-             <h1>{title}</h1>
+             <h1 className='text-black font-bold'>{title}</h1>
              <div  className='flex gap-4 justify-around m-5 w-20'>
                             <div className=' mr-5'>
                                 <img className='w-4 h-4' src={download} alt="" />
@@ -21,7 +21,7 @@ const AppList = ({singleApp}) => {
                             </div>
                             <div className=' mr-5'>
                                 <img className='w-4 h-4' src={rating} alt="" />
-                                <h5  className='text-black'>{downloads}</h5>
+                                <h5  className='text-black'>{ratingAvg}</h5>
                             </div>
                             <div>
                                 <h5 className='text-black mt-3'>{size}</h5>

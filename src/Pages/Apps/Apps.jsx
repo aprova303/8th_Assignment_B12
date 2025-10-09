@@ -1,5 +1,7 @@
 import React, { Suspense, useState } from 'react';
 import App from '../App/App';
+import AppPage from '../AppPage/AppPage';
+import { Link } from 'react-router';
 
 const Apps = ({data}) => {
     const [allApps,setAllApps] = useState([]);
@@ -17,8 +19,13 @@ const Apps = ({data}) => {
 
            </div>
            </Suspense>
-        </div>
-    );
+          <div className='flex justify-center mb-5'>
+            <Link to='/AppPage'>
+             <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">Show All </a>
+            </Link>
+            </div>
+            </div>
+    )
 };
 
 export default Apps;
