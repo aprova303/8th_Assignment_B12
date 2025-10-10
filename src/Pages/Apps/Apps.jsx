@@ -12,7 +12,7 @@ const Apps = ({data}) => {
             <p>Explore All Trending Apps on the Market developed by us</p>
            </div>
            <Suspense fallback={<span>Loading.....</span>}>
-           <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5'>
+           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
              {
                 data.slice(1,9).map(singleApp => <App key={singleApp.id} singleApp={singleApp}></App>)
              }

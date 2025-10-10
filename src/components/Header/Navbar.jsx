@@ -1,13 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom'; 
 import logo from '../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
+   const linkClass = ({ isActive }) =>
+        isActive
+            ? "m-2 underline text-[#9F62F2] font-bold"
+            : "m-2";
+
      const links=<>
-     <Link to='/'> <li className='m-2'>Home</li></Link>
-   <Link to='/AppPage'><li className='m-2'>Apps</li></Link>
-   <Link to='/Installation'><li className='m-2'>Installation</li></Link>
+    <NavLink to='/' className={linkClass}>
+            <li>Home</li>
+        </NavLink>
+        <NavLink to='/AppPage' className={linkClass}>
+            <li>Apps</li>
+        </NavLink>
+        <NavLink to='/Installation' className={linkClass}>
+            <li>Installation</li>
+        </NavLink>
     </>
     return (
        <div className="navbar bg-base-100 shadow-sm">
@@ -22,10 +34,12 @@ const Navbar = () => {
        {links}
       </ul>
     </div>
+   <Link to='/'>
    <div className='flex justify-between'>
     <img className='h-[40px] w-[40px]' src={logo} alt="" />
     <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
    </div>
+   </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -33,7 +47,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">  <FaGithub></FaGithub>Contribute </a>
+    <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" href='https://github.com/aprova303'>  <FaGithub></FaGithub>Contribute </a>
     </div>
 </div>
     );

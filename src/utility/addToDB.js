@@ -14,7 +14,7 @@ const addToStoredDB = (id) => {
     
     const storedAppData = getStoredApp();
     if(storedAppData.includes(id)){
-        alert("exsits")
+        // alert("exsits")
     }else{
         storedAppData.push(id);
         const data = JSON.stringify(storedAppData)
