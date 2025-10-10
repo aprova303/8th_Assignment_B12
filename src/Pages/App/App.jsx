@@ -9,7 +9,7 @@ const App = ({singleApp}) => {
     // console.log(image)
     return (
    <Link to={`/AppDetails/${id}`}>
-    <div className="card bg-base-100 w-72 shadow-sm border p-6 mb-6">
+    <div className="card bg-base-100 w-72 shadow-sm border p-6 mb-6 ">
   <figure className='p-4 bg-gray-100 w-2/3 mx-auto '>
     <img className='h-[166px]'
       src={image} />

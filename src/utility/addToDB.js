@@ -1,26 +1,24 @@
-const getStoredApp = () =>{
- const storedAppSTR = localStorage.getItem("installation");
-
- if(storedAppSTR){
-    const storedAppData = JSON.parse(storedAppSTR);
-    return storedAppData;
- }
- else{
+const getStoredApp = () => {
+  const storedAppSTR = localStorage.getItem("installation");
+  if (storedAppSTR) {
+    return JSON.parse(storedAppSTR);
+  } else {
     return [];
- }
-}
+  }
+};
 
 const addToStoredDB = (id) => {
-    
-    const storedAppData = getStoredApp();
-    if(storedAppData.includes(id)){
-        // alert("exsits")
-    }else{
-        storedAppData.push(id);
-        const data = JSON.stringify(storedAppData)
-        localStorage.setItem("installation",data)
-        // console.log(storedAppData)
-        // localStorage.setItem
-    }
-}
-export {addToStoredDB,getStoredApp}
+  const storedAppData = getStoredApp();
+  if (!storedAppData.includes(id)) {
+    storedAppData.push(id);
+    localStorage.setItem("installation", JSON.stringify(storedAppData));
+  }
+};
+
+const removeFromDB = (id) => {
+  const storedAppData = getStoredApp();
+  const updatedData = storedAppData.filter(appId => appId !== id);
+  localStorage.setItem("installation", JSON.stringify(updatedData));
+};
+
+export { addToStoredDB, getStoredApp, removeFromDB };

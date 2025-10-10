@@ -1,272 +1,178 @@
 [
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 1,
     "title": "Spotify",
     "companyName": "Spotify AB",
-    "id": 1,
-    "description": "Stream millions of songs, podcasts, and playlists. Discover new music every day.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Stream millions of songs, albums, and podcasts. Create playlists, follow friends, and enjoy personalized recommendations on any device.",
     "size": 95,
-    "reviews": 32700000,
-    "ratingAvg": 4.4,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 2800000 },
-      { "name": "4 star", "count": 7200000 },
-      { "name": "5 star", "count": 20700000 }
-    ]
+    "downloads": "1B",
+    "reviews": "32.7M",
+    "ratingAvg": 4.4
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 2,
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
-    "id": 2,
-    "description": "Learn languages for free with fun bite-sized lessons. Available in over 30 languages.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Learn languages in a fun and interactive way. Track your progress, complete bite-sized lessons, and practice speaking, reading, and listening daily.",
     "size": 60,
-    "reviews": 18000000,
-    "ratingAvg": 4.7,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1300000 },
-      { "name": "4 star", "count": 3500000 },
-      { "name": "5 star", "count": 12300000 }
-    ]
+    "downloads": "500M",
+    "reviews": "18M",
+    "ratingAvg": 4.7
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 3,
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
-    "id": 3,
-    "description": "Create graphics, social posts and presentations easily using templates and drag-and-drop tools.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Create stunning graphics, social posts, and presentations using thousands of templates and drag-and-drop design tools. Perfect for both beginners and pros.",
     "size": 75,
-    "reviews": 13500000,
-    "ratingAvg": 4.8,
-    "downloads": 250000000,
-    "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 900000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 9700000 }
-    ]
+    "downloads": "250M",
+    "reviews": "13.5M",
+    "ratingAvg": 4.8
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 4,
     "title": "Snapseed",
     "companyName": "Google LLC",
-    "id": 4,
-    "description": "Professional photo editor with a wide set of tools and filters for precise editing.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Professional photo editor with precise tools and filters. Adjust brightness, contrast, and apply selective edits for high-quality images.",
     "size": 28,
-    "reviews": 1800000,
-    "ratingAvg": 4.5,
-    "downloads": 100000000,
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 90000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 400000 },
-      { "name": "5 star", "count": 1040000 }
-    ]
+    "downloads": "100M",
+    "reviews": "1.8M",
+    "ratingAvg": 4.5
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 5,
     "title": "Notion",
     "companyName": "Notion Labs, Inc.",
-    "id": 5,
-    "description": "All-in-one workspace for notes, tasks, and databases — powerful productivity app.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "All-in-one workspace for notes, tasks, and databases. Organize personal and team projects seamlessly with customizable templates and integrations.",
     "size": 100,
-    "reviews": 900000,
-    "ratingAvg": 4.6,
-    "downloads": 50000000,
-    "ratings": [
-      { "name": "1 star", "count": 25000 },
-      { "name": "2 star", "count": 40000 },
-      { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 250000 },
-      { "name": "5 star", "count": 485000 }
-    ]
+    "downloads": "50M",
+    "reviews": "0.9M",
+    "ratingAvg": 4.6
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 6,
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
-    "id": 6,
-    "description": "Find ideas for recipes, home design, fashion, and more — inspiration for every interest.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Discover ideas for recipes, fashion, home design, and more. Save pins, organize boards, and get inspired for your next project.",
     "size": 75,
-    "reviews": 12000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 6800000 }
-    ]
+    "downloads": "1B",
+    "reviews": "12M",
+    "ratingAvg": 4.5
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 7,
     "title": "Calm",
     "companyName": "Calm.com, Inc.",
-    "id": 7,
-    "description": "Meditation, sleep, and relaxation app designed to reduce stress and improve focus.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Meditation and sleep app offering guided sessions, breathing exercises, and relaxing music to reduce stress and improve focus.",
     "size": 40,
-    "reviews": 2500000,
-    "ratingAvg": 4.3,
-    "downloads": 100000000,
-    "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 110000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 700000 },
-      { "name": "5 star", "count": 1420000 }
-    ]
+    "downloads": "100M",
+    "reviews": "2.5M",
+    "ratingAvg": 4.3
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 8,
     "title": "Shazam",
     "companyName": "Shazam Entertainment (Apple Inc.)",
-    "id": 8,
-    "description": "Identify songs playing around you instantly. Discover new music and artists easily.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Identify songs playing around you instantly. Discover new music and add tracks to playlists in Spotify or Apple Music.",
     "size": 35,
-    "reviews": 9200000,
-    "ratingAvg": 4.8,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 180000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 7020000 }
-    ]
+    "downloads": "500M",
+    "reviews": "9.2M",
+    "ratingAvg": 4.8
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 9,
     "title": "YouTube",
     "companyName": "Google LLC",
-    "id": 9,
-    "description": "Watch, upload, and share videos globally. Discover trending content and creators.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Watch, upload, and share videos worldwide. Follow creators, explore trending content, and enjoy playlists and live streams.",
     "size": 150,
-    "reviews": 125000000,
-    "ratingAvg": 4.2,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 9000000 },
-      { "name": "2 star", "count": 12000000 },
-      { "name": "3 star", "count": 25000000 },
-      { "name": "4 star", "count": 32000000 },
-      { "name": "5 star", "count": 50000000 }
-    ]
+    "downloads": "10B",
+    "reviews": "125M",
+    "ratingAvg": 4.2
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 10,
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
-    "id": 10,
-    "description": "Connect with friends, share moments, and stay updated with social networking.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Connect with friends, share posts, photos, and videos. Join groups, follow pages, and stay updated with social networking features.",
     "size": 80,
-    "reviews": 150000000,
-    "ratingAvg": 4.1,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 12000000 },
-      { "name": "2 star", "count": 15000000 },
-      { "name": "3 star", "count": 28000000 },
-      { "name": "4 star", "count": 35000000 },
-      { "name": "5 star", "count": 60000000 }
-    ]
+    "downloads": "5B",
+    "reviews": "150M",
+    "ratingAvg": 4.1
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 11,
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
-    "id": 11,
-    "description": "Share photos and videos, follow friends and creators, and explore global content.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Share photos, videos, and stories. Follow friends, explore trending content, and use Reels and IGTV for creative engagement.",
     "size": 95,
-    "reviews": 95000000,
-    "ratingAvg": 4.4,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 16000000 },
-      { "name": "4 star", "count": 28000000 },
-      { "name": "5 star", "count": 38000000 }
-    ]
+    "downloads": "5B",
+    "reviews": "95M",
+    "ratingAvg": 4.4
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 12,
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
-    "id": 12,
-    "description": "Short-form video platform to create, watch, and share entertaining videos worldwide.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Short-form video platform to create, watch, and share entertaining content globally. Discover trending challenges and viral videos daily.",
     "size": 120,
-    "reviews": 110000000,
-    "ratingAvg": 4.5,
-    "downloads": 3000000000,
-    "ratings": [
-      { "name": "1 star", "count": 4000000 },
-      { "name": "2 star", "count": 6000000 },
-      { "name": "3 star", "count": 11000000 },
-      { "name": "4 star", "count": 22000000 },
-      { "name": "5 star", "count": 67000000 }
-    ]
+    "downloads": "3B",
+    "reviews": "110M",
+    "ratingAvg": 4.5
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 13,
     "title": "Google Maps",
     "companyName": "Google LLC",
-    "id": 13,
-    "description": "Navigate the world with accurate maps, live traffic, and local business info.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Navigate the world with accurate maps, live traffic updates, and local business information. Plan routes for driving, walking, or public transport.",
     "size": 85,
-    "reviews": 98000000,
-    "ratingAvg": 4.6,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 5000000 },
-      { "name": "3 star", "count": 8000000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 57000000 }
-    ]
+    "downloads": "10B",
+    "reviews": "98M",
+    "ratingAvg": 4.6
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 14,
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
-    "id": 14,
-    "description": "Stream movies, TV shows, and documentaries. Watch anytime, anywhere.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Stream movies, TV shows, and documentaries. Enjoy offline downloads, personalized recommendations, and multi-device support.",
     "size": 90,
-    "reviews": 100000000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 50000000 }
-    ]
+    "downloads": "1B",
+    "reviews": "100M",
+    "ratingAvg": 4.3
   },
   {
-    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "id": 15,
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
-    "id": 15,
-    "description": "Professional networking platform to connect, learn, and advance your career.",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Professional networking platform to connect, learn, and advance your career. Post updates, follow companies, and apply for jobs.",
     "size": 70,
-    "reviews": 38000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 19500000 }
-    ]
+    "downloads": "1B",
+    "reviews": "38M",
+    "ratingAvg": 4.5
+  },
+  {
+    "id": 16,
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/f2a2e608c854822ad2563a09595e7827.png",
+    "description": "Video conferencing and online meeting app. Host and join meetings, webinars, and screen sharing sessions for work or personal use.",
+    "size": 110,
+    "downloads": "500M",
+    "reviews": "25M",
+    "ratingAvg": 4.4
   }
 ]
